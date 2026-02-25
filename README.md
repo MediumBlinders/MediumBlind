@@ -1,2 +1,3 @@
 # MediumBlind
-Free Online Poker
+Free Online Poker Game
+
