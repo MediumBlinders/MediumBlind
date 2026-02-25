@@ -1,0 +1,41 @@
+.room-settings {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.room-settings h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+.room-settings ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.room-settings li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.setting-label {
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+.setting-value {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.setting-icon {
+  font-size: 16px;
+}
